@@ -8,6 +8,7 @@ git commit -m "updated"
 git push
 
 
+* Rodando de uma vez
 git add .
 git commit -m "updated"
 git push
