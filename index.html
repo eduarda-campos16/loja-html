@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <title>Loja - Mais Bolsas</title>
 </head>
 <body>
-    <h1>Loja - Eduarda</h1>
+    <header>
+        <i class="bi bi-list"></i>
+        <h1>Dafiti</h1>
+        <div class="menu-items">
+            <i class="bi bi-bag"></i>
+            <i class="bi bi-heart"></i>
+        </div>
+    </header>
+    <div class="box">
+        <img src="./image/barcelos-matelasse-verde-1.jpg" alt="">
+        <div class="box-item">
+            <img src="./image/barcelos-matelasse-verde-2.jpg" alt="">
+            <img src="./image/barcelos-matelasse-verde-3.jpg" alt="">
+            <img src="./image/barcelos-matelasse-verde-4.jpg" alt="">
+        </div>
+    </div>
+
+    <style>
+        .box{
+            width: 100%;
+        }
+        .box img{ 
+            width: 100%;
+        }
+        .box-item{
+            width: 100%;
+            height: 100px;
+        }
+        .box-item img{
+            width: 32%;
+        }
+        header{
+            gap: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu-items{
+            gap: 10px;
+            display: flex;
+            padding-right: 5px;
+        }
+        .bi{
+            font-size: 23px;
+        }
+    </style>
 </body>
 </html>
